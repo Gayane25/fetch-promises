@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt';
+}
+#input-wrapper {
+  position: relative;
+  padding-top: 450px;
+  padding-bottom: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../assets/worldMap.jpg');
+}
+#input-wrapper .searchInp {
+  width: 506px;
+  height: 43px;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  /* position: relative; */
+}
+#input-wrapper .searchBtn {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 530px;
+  bottom: 458px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.country-name {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
