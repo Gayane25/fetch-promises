@@ -5,7 +5,6 @@
   font-family: 'Prompt';
 }
 #input-wrapper {
-  position: relative;
   padding-top: 450px;
   padding-bottom: 450px;
   width: 100%;
@@ -15,7 +14,11 @@
   background-repeat: no-repeat;
   background-image: url('../assets/worldMap.jpg');
 }
-#input-wrapper .searchInp {
+.inpBtnDiv {
+  position: relative;
+  width: 520px;
+}
+.inpBtnDiv .searchInp {
   width: 506px;
   height: 43px;
   outline: none;
@@ -24,12 +27,12 @@
   font-size: 20px;
   /* position: relative; */
 }
-#input-wrapper .searchBtn {
+.inpBtnDiv .searchBtn {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  right: 530px;
-  bottom: 458px;
+  right: 25px;
+  top: 9px;
   border: none;
   outline: none;
   background: none;
